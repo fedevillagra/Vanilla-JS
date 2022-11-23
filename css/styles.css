@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header,section,footer{
+    width: 1200px;
+    margin: auto;
+    box-sizing: content-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.icons-right{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(41, 41, 41);
+    margin-left: 20px;
+}
+.icons-right:hover{
+    color: #007aff;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+}
+
+#icon-search{
+    color: #007aff;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+#logo{
+    width: 300px;
+}
+
+.search{
+    margin-top: 40px;
+}
+
+.icon-home{
+    color: #007aff;
+}
+
+.bold{
+    color: #111;
+    font-size: 19px;
+    font-weight: 500;
+}
+.bold:hover{
+    color: #007aff;
+    text-decoration: underline #007aff solid 1px;
+    text-underline-offset: 10px;
+}
+
+.ml{
+    margin-left: 5px;
+}
+
+.carousel-item .form-group{
+    height: 770px;
+}
+    
+.h-carousel{
+    font-size: 60px;
+}
+.p-carousel{
+    font-size: 25px;
+}
+.btn-primary{
+    background-color: #007aff;
+}
+
+.titleAlert{
+    color: #007acc;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.textAlert{
+    color: #111;
+}
+
+.buttons{
+    font-family: sans-serif;
+    font-size: 130%;
+    color: #09f;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border: 1px solid #000;
+    font-weight: bold;
+}
+.buttons:hover{
+    background-color: rgb(170, 170, 170);
+}
+.buttons:focus {
+    outline: 0px;
+}
+
+.carta{
+    text-decoration: none;
+    color: #007acc;
+    text-align: center;
+}
+.carta-titulo{
+    background: #fff;
+    opacity: .7;
+}
+.card:hover .carta-titulo{
+    opacity: 1;
+}
+
+.img-primera{
+    height: 800px; 
+    width:auto;
+    margin: auto;
+}
+.img-rest-4{
+    height: 400px; 
+    width:auto;
+    margin: auto;
+}

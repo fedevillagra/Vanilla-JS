@@ -1,0 +1,90 @@
+[
+    {
+       "id":1,
+       "nombre":"Capitán jack sparrow como shisha",
+       "precio":119,
+       "descripcion":"¡Tu mejor aventura de verano BLOW OFF!",
+       "imagen":"img/IMG_4507.png",
+       "tipo":"NUEVO Shishas Narguiles"
+    },
+    {
+       "id":2,
+       "nombre":"Nuevo Hendrick's Foxx",
+       "precio":199,
+       "descripcion":"Descubra el FOXX con colector de melaza integrado, válvula BLOW OFF y anillo LED",
+       "imagen":"img/IMG_2708I4G6oMJ05HAx7.png",
+       "tipo":"NUEVO Shishas Narguiles"
+    },
+    {
+       "id":3,
+       "nombre":"¡Conjuntos PICO Pink!",  
+       "precio":79,
+       "descripcion":"Rosa para nuestras damas", 
+       "imagen":"img/IMG_1987-minqW0QsZjH90XNJ.png",
+       "tipo":"NUEVO Shishas Narguiles"
+    },
+    {
+       "id":4,
+       "nombre":"El cortavientos Hendrick's", 
+       "precio":19,
+       "descripcion":"¡Protección contra el viento para su carbón!",
+       "imagen":"img/wind-minpBKmInrmm1JYv.png",
+       "tipo":"NUEVO Equipo"
+    },
+    {
+      "id":5,
+      "nombre":"El nuevo tabaco Hendrick's FCKIN FABULOSO", 
+      "precio":17,
+      "descripcion":"ya disponible!",
+      "imagen":"img/DschinniTobacco_FckinFabulousintersentpng-greigestellt200g-Kopie.png",
+      "tipo":"NUEVO Tabaco"
+   },
+   {
+      "id":6,
+      "nombre":"Cabeza de cristal Hendrick's nero pink, green, blue", 
+      "precio":24,
+      "descripcion":"Nuestras nobles cabezas de cristal hendrick's ya están disponibles en nuevos colores", 
+      "imagen":"img/nero72mGSCcpcRdxfxy.png",
+      "tipo":"NUEVO Cabezas"
+   },
+   {
+      "id":7,
+      "nombre":"Hendrick's aztec shisha", 
+      "precio":238,
+      "descripcion":"El mejor acero inoxidable V4A (316L) se encuentra con un hermoso cristal",
+      "imagen":"img/image002.png",
+      "tipo":"NUEVO Shishas Narguiles"
+   },
+   {
+      "id":8,
+      "nombre":"Boquillas de carbono Hendrick's Fusion", 
+      "precio":29,
+      "descripcion":"Nuevas boquillas de carbono en cuatro modelos ya disponibles",
+      "imagen":"img/Carbon.png",
+      "tipo":"NUEVO Boquillas"
+   },
+   {
+      "id":9,
+      "nombre":"Manguera de silicona negra Candyhose",
+      "precio":7,
+      "descripcion":"",
+      "imagen":"img/PNG-Bild-871F78CD7B06-5-minL4a1fx0m6x2F1_600x600.png",
+      "tipo":"Mangueras"
+   },
+   {
+      "id":10,
+      "nombre":"Caja con Cubos de carbón vegetal 1kg",
+      "precio":6,
+      "descripcion":"",
+      "imagen":"img/kohle_1280x1280.png",
+      "tipo":"Carbón"
+   },
+   {
+      "id":11,
+      "nombre":"Hendrick's Stealth Bomber Bowl",
+      "precio":29,
+      "descripcion":"",
+      "imagen":"img/PNG-Bild-9B4E38A52335-1ijcJK93WjAc4X_1280x1280.png",
+      "tipo":"Bases"
+   }
+ ]
