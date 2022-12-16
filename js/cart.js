@@ -1,4 +1,12 @@
 //Añadir y quitar del carrito
+const carritoVacio = () => { 
+    const carritoDom = document.getElementById('carrito');
+    if(carrito.length==0){
+        carritoDom.innerHTML = `
+        <h5 class="card-title carta">Agrega productos al carrito!</h5>
+    `;}
+ }
+
 const productoCarritoHTML=(producto)=>{
     const {imagen,nombre,precio,cantidad,id} = producto;
     return `
@@ -47,6 +55,7 @@ const updateCarrito = () =>{
                                     </div>
                                 `;
     }
+    carritoVacio();
 };
 
 const addCarrito = () => {
@@ -56,7 +65,7 @@ const addCarrito = () => {
         quitar.addEventListener("click",()=>{
             if(producto.cantidad > 1){
                 producto.cantidad--;
-                addCarrito(); // actualiza el carrito y setea el boton quitar a cada producto del carrito
+                addCarrito(); // actualiza el carrito y setea el boton quitar a cada producto del carrito (hace un render)
             }else{
                 carrito.splice(carrito.indexOf(producto),1);
                 addCarrito();
@@ -77,10 +86,12 @@ const agregar = (producto) =>{
             addCarrito();
         }
     });
+    
 };
 
 const carritoProductos = (productos) => {
     for (const producto of productos){
         agregar(producto);
     }
+    carritoVacio();
 };

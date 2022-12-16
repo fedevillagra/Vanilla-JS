@@ -1,6 +1,6 @@
 // mayor de edad
 const verificar = () => {
-  Swal.fire({
+  return Swal.fire({
     html: `<h5 class="titleAlert">Verificación de edad</h5><br/>
             <span class="textAlert">
                 <b>Atención:</b> para usar esta tienda en línea, debe tener <b>al menos 18 años.<br/><br/>
@@ -15,15 +15,15 @@ const verificar = () => {
         confirmButton:'buttons',
         denyButton:'buttons',
     },
-  }).then((result) => {
-    if (result.value) {
-        sessionStorage.setItem("verificacionDeEdad",true);
-      }else{
-          location.href='https://www.google.com';
-      }
   });
 };
-sessionStorage.getItem("verificacionDeEdad") ?? verificar(); //!sessionStorage.getItem("verificacionDeEdad") && verificar();
+sessionStorage.getItem("verificacionDeEdad") ?? verificar().then((result) => { //!sessionStorage.getItem("verificacionDeEdad") && verificar();
+  if (result.value) {
+      sessionStorage.setItem("verificacionDeEdad",true);
+    }else{
+        location.href='https://www.google.com';
+    }
+}); 
 
 // producto añadido
 const Toast = Swal.mixin({
